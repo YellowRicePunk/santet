@@ -1,12 +1,10 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 #-*-coding: utf-8-*-
-# Coded by DicDic
-try:
+
 	import os, requests, time, json
 except ModuleNotFoundError:
 	print("\ninstall module request dulu")
 	print("$ pip install requests\n")
-	
 	exit()
 
 
