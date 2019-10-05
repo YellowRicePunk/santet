@@ -6,7 +6,7 @@ try:
 except ModuleNotFoundError:
 	print("\ninstall module request dulu")
 	print("$ pip install requests\n")
-	time.sleep(2)
+	
 	exit()
 
 
