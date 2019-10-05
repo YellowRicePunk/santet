@@ -7,7 +7,7 @@ except ModuleNotFoundError:
 	print("$ pip install requests\n")
 	exit()
 
-
+os.system('clear')
 c=('\033[94m')
 print("%s\n     _   _            _   _\n  __| | (_)  __    __| | (_)  __\n/ _`  | | | / _| / _`  | | | / _|\n\__,__| |_| \__| \__,__| |_| \__|%s"%(c,c))
 print("%s  S p a m   C a l l   M a s a l\n%s"%(c,c))
