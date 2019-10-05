@@ -1,8 +1,8 @@
 #!/usr/bin/python
 #-*-coding: utf-8-*-
-
+try:
 	import os, requests, time, json
-except ModuleNotFoundError:
+        except ModuleNotFoundError:
 	print("\ninstall module request dulu")
 	print("$ pip install requests\n")
 	exit()
